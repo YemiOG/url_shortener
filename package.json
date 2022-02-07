@@ -1,0 +1,31 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "A technique to make a Universal Resource Locator (URL) shorter and still direct to the required page",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YemiOG/url_shortener.git"
+  },
+  "author": "'Yemi Ogundeyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YemiOG/url_shortener/issues"
+  },
+  "homepage": "https://github.com/YemiOG/url_shortener#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "config": "^3.3.7",
+    "express": "^4.17.2",
+    "moongoose": "^0.0.4",
+    "shortid": "^2.2.8",
+    "valid-url": "^1.0.9"
+  }
+}
